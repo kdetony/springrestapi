@@ -1,6 +1,10 @@
 # Repo Example Spring Rest Api with Database 
+This simple application api rest with database (non insert)
 
-0. Create network docker
+`http://ip:5000/getStudent/id`
+
+
+0.Create network docker
 docker network create red1
 
 1.Create database container mysql
