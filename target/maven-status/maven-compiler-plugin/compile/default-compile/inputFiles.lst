@@ -1,7 +1,7 @@
-/root/SpringBoot_Jdbc_MySQL/src/main/java/FirstApp/Dao/StudentRowMapper.java
-/root/SpringBoot_Jdbc_MySQL/src/main/java/FirstApp/Controller/StudentController.java
-/root/SpringBoot_Jdbc_MySQL/src/main/java/FirstApp/Dao/StudentDao.java
-/root/SpringBoot_Jdbc_MySQL/src/main/java/FirstApp/Model/Student.java
-/root/SpringBoot_Jdbc_MySQL/src/main/java/FirstApp/Service/StudentService.java
-/root/SpringBoot_Jdbc_MySQL/src/main/java/FirstApp/Application.java
-/root/SpringBoot_Jdbc_MySQL/src/main/java/FirstApp/Dao/StudentDaoImpl.java
+/root/springrestapi/src/main/java/FirstApp/Dao/StudentRowMapper.java
+/root/springrestapi/src/main/java/FirstApp/Model/Student.java
+/root/springrestapi/src/main/java/FirstApp/Application.java
+/root/springrestapi/src/main/java/FirstApp/Dao/StudentDaoImpl.java
+/root/springrestapi/src/main/java/FirstApp/Dao/StudentDao.java
+/root/springrestapi/src/main/java/FirstApp/Controller/StudentController.java
+/root/springrestapi/src/main/java/FirstApp/Service/StudentService.java
