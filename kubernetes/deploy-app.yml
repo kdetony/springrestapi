@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-app
+  labels:
+    app: app
+spec:
+  selector:
+    matchLabels:
+      app: app
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containers:
+       - image: kdetony/springappidb:1.0
+         name: cont-app
+         ports:
+         - containerPort: 5000
+           name: cont-app
+         env:
+         - name: MYSQL_SERVICE_HOST
+           value: 'mydb'
+         - name: MYSQL_SERVICE_PORT
+           value: '3306'           
