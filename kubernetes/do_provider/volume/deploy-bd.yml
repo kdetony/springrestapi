@@ -13,14 +13,12 @@ spec:
       labels:
         app: db
     spec:
+      restartPolicy: Always
       containers:
       - image: mysql:5.6
         name:  pod-mydb
         args:
           - "--ignore-db-dir=lost+found"   
-        securityContext:
-          runAsUser: 1000
-          allowPrivilegeEscalation: false       
         env:
         - name: MYSQL_ROOT_PASSWORD
           value: "12345678"
@@ -33,4 +31,4 @@ spec:
       volumes:
       - name: mysql-persistent-storage
         persistentVolumeClaim:
-          claimName: mysql-pv-claim
+          claimName: mysql-pv-claim-3
